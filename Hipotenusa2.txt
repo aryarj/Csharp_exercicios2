@@ -1,0 +1,27 @@
+sing System;
+
+namespace exercicio1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Clear();
+            double C1 = 0;
+            double C2 = 0;
+            double h = 0;
+            double P = 0;
+            double A = 0;
+            Console.WriteLine("Por favor, digite o valor do primeiro cateto  ");
+            C1=double.Parse(Console.ReadLine());
+            Console.WriteLine("Por favor, digite o valor do primeiro cateto  ");
+            C2=double.Parse(Console.ReadLine());
+            h = Math.Sqrt(C1*C1 + C2*C2);
+            Console.WriteLine("O valor da hipotenusa é  "+ h);
+            P=h+C1+C2;
+            Console.WriteLine("O valor do perímetro é  "+ P);
+            A=C1*C2/2;
+            Console.WriteLine("O valor da Area é  "+ A);
+        }
+    }
+}

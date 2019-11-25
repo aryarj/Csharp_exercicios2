@@ -1,0 +1,23 @@
+using System;
+
+namespace exercico
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        int T;
+        int X;
+        int Y;
+        Console.WriteLine ("Digite a váriavel T  ");
+        T=Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine ("Digite a váriavel X  ");
+        X=Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine ("Digite a váriavel Y  " );
+        Y=Convert.ToInt32(Console.ReadLine());
+        int W;
+        W = 2*T+4*X-3*Y;
+        Console.WriteLine ( "o Resultado W é  " + W);
+        }
+    }
+}

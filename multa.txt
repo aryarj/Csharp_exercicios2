@@ -1,0 +1,26 @@
+using System;
+
+namespace exercicio3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Clear();
+            double m = 0;
+            double vp = 0;
+            double p = 0;
+            double vm = 0;
+
+            Console.WriteLine("Por favor, digite o valor a ser a ser pago");
+            vp=double.Parse(Console.ReadLine());
+            Console.WriteLine("Por favor, digite a porcentagem da multa");
+            p=double.Parse(Console.ReadLine());
+            m=(vp*p)/100;
+            Console.WriteLine("O valor da multa é  "+ m);
+            vm=vp+m;
+            Console.WriteLine("O valor com a multa é  "+ vm);
+
+        }
+    }
+}

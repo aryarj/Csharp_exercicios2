@@ -1,0 +1,26 @@
+using System;
+
+namespace exercicio4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Clear();
+            double l = 0;
+            double pv = 0;
+            double c = 0;
+            double pl = 0;
+
+            Console.WriteLine("Por favor, digite o preço de venda");
+            pv=double.Parse(Console.ReadLine());
+            Console.WriteLine("Por favor, digite o custo");
+            c=double.Parse(Console.ReadLine());
+            l=pv-c;
+            Console.WriteLine("O lucro é de  "+ l);
+            pl=(l/pv)*100;
+            Console.WriteLine("O porcentual do lucro é  "+ pl);
+
+        }
+    }
+}
